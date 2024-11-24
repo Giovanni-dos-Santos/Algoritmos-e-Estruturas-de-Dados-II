@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    printf("\nPontuação dos jogadores:\n");
+    printf("\nPontuaÃ§Ã£o dos jogadores:\n");
     for (int i = 0; i < 3; i++) {
         printf("Jogador %d: %d pontos\n", i + 1, soma[i]);
     }
