@@ -16,6 +16,6 @@ int main() {
 		scanf("%d", &vetor[i]);
 	}
 
-	printf("Números em ordem inversa:\n");
+	printf("NÃºmeros em ordem inversa:\n");
 	OrdemInversa(vetor);
 }
