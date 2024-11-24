@@ -13,10 +13,10 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int numero;
 	
-	printf("Digite um número inteiro: ");
+	printf("Digite um nÃºmero inteiro: ");
 	scanf("%d", &numero);
 	
-	printf("\nOs numero pares de %d são: ", numero);
+	printf("\nOs numero pares de %d sÃ£o: ", numero);
 	exibirPares(numero);
 	
 	return 0;
