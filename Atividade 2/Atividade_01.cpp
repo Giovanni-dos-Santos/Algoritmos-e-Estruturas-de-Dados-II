@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <locale.h>
 
-// Função para verificar se um número é primo
+// FunÃ§Ã£o para verificar se um nÃºmero Ã© primo
 int primo(int numero) {
     if (numero < 2) {
-        return 0;  // Falso, não é primo
+        return 0;  // Falso, nÃ£o Ã© primo
     }
     for (int i = 2; i * i <= numero; i++) {
         if (numero % i == 0) {
-            return 0;  // Falso, não é primo
+            return 0;  // Falso, nÃ£o Ã© primo
         }
     }
-    return 1;  // Verdadeiro, é primo
+    return 1;  // Verdadeiro, Ã© primo
 }
 
-// Função para calcular a soma dos N primeiros números primos
+// FunÃ§Ã£o para calcular a soma dos N primeiros nÃºmeros primos
 int somaPrimos(int n) {
     int soma = 0;
     int contador = 0;
@@ -31,16 +31,16 @@ int somaPrimos(int n) {
     return soma;
 }
 
-// Função principal (main)
+// FunÃ§Ã£o principal (main)
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
     int n;
-    printf("Digite a quantidade de números primos a serem somados: ");
+    printf("Digite a quantidade de nÃºmeros primos a serem somados: ");
     scanf("%d", &n);
 
     int resultado = somaPrimos(n);
-    printf("A soma dos %d primeiros números primos é: %d\n", n, resultado);
+    printf("A soma dos %d primeiros nÃºmeros primos Ã©: %d\n", n, resultado);
 
     return 0;
 }
